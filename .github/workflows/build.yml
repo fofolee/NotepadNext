@@ -7,6 +7,7 @@ on:
     tags:
       - '*'
   pull_request:
+  workflow_dispatch: 
 
 env:
   QT_RELEASE_VER: 6.5
